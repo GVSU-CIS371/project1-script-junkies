@@ -15,6 +15,8 @@ header {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  height:50px;
+  background-color: #c3c3c7;
 }
 nav ul {
   display: flex;
@@ -42,9 +44,13 @@ main {
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-between;
-  height: 100%;
+  /*height: 100%;*/
+  position: relative;
+  margin-right: 30px;
+  display: inline;
+  border:outset #c3c3c7;
+  padding-bottom: 0px;
 }
 .store-item .details {
   display: flex;
@@ -56,13 +62,13 @@ main {
 }
 .store-item img {
   max-width: 100%;
-  height: auto;
+  height: 25%;
   border-radius: 5px;
 }
-
-
 /* Footer */
 footer {
   text-align: center;
   padding: 1rem;
+  /*height:40px;*/
+  background-color: #c3c3c7;
 }
